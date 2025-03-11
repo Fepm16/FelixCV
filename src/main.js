@@ -1,7 +1,6 @@
 import './style.css'
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { materialMetalness, sRGBTransferOETF } from 'three/src/nodes/TSL.js';
 import { metalness } from 'three/tsl';
 import { MeshBasicMaterial } from 'three/webgpu';
